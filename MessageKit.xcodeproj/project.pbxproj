@@ -100,8 +100,8 @@
 		B7A03F731F866A06006AEF79 /* MessageKit+Availability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A03F701F866A06006AEF79 /* MessageKit+Availability.swift */; };
 		B7A03F751F866A06006AEF79 /* MessageKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A03F721F866A06006AEF79 /* MessageKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7A03F7B1F866B85006AEF79 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A03F7A1F866B85006AEF79 /* MessageCollectionViewCell.swift */; };
-		BBD0866625E58C510037F7D9 /* InputBarAccessoryView.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBD0866525E58C510037F7D9 /* InputBarAccessoryView.xcframework */; };
-		BBD0866725E58C510037F7D9 /* InputBarAccessoryView.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BBD0866525E58C510037F7D9 /* InputBarAccessoryView.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BB28EA8925E597E300BC4CBB /* InputBarAccessoryView.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB28EA8825E597E300BC4CBB /* InputBarAccessoryView.xcframework */; };
+		BB28EA8A25E597E300BC4CBB /* InputBarAccessoryView.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BB28EA8825E597E300BC4CBB /* InputBarAccessoryView.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,13 +126,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBD0866825E58C510037F7D9 /* Embed Frameworks */ = {
+		BB28EA8B25E597E300BC4CBB /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BBD0866725E58C510037F7D9 /* InputBarAccessoryView.xcframework in Embed Frameworks */,
+				BB28EA8A25E597E300BC4CBB /* InputBarAccessoryView.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +238,8 @@
 		B7A03F711F866A06006AEF79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7A03F721F866A06006AEF79 /* MessageKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageKit.h; sourceTree = "<group>"; };
 		B7A03F7A1F866B85006AEF79 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCollectionViewCell.swift; sourceTree = "<group>"; };
+		BB28EA8325E5978900BC4CBB /* MessageInputBar.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MessageInputBar.xcframework; path = ../../Carthage/Build/MessageInputBar.xcframework; sourceTree = "<group>"; };
+		BB28EA8825E597E300BC4CBB /* InputBarAccessoryView.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = InputBarAccessoryView.xcframework; path = Carthage/Build/InputBarAccessoryView.xcframework; sourceTree = "<group>"; };
 		BBD0864425E589DB0037F7D9 /* InputBarAccessoryView.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = InputBarAccessoryView.xcframework; path = ../../Carthage/Build/InputBarAccessoryView.xcframework; sourceTree = "<group>"; };
 		BBD0866525E58C510037F7D9 /* InputBarAccessoryView.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = InputBarAccessoryView.xcframework; path = ../../Carthage/Build/iOS/InputBarAccessoryView.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -247,7 +249,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBD0866625E58C510037F7D9 /* InputBarAccessoryView.xcframework in Frameworks */,
+				BB28EA8925E597E300BC4CBB /* InputBarAccessoryView.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +269,8 @@
 		1F7FC8C21FD26F22006CC979 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BB28EA8825E597E300BC4CBB /* InputBarAccessoryView.xcframework */,
+				BB28EA8325E5978900BC4CBB /* MessageInputBar.xcframework */,
 				BBD0866525E58C510037F7D9 /* InputBarAccessoryView.xcframework */,
 				BBD0864425E589DB0037F7D9 /* InputBarAccessoryView.xcframework */,
 				38A223102223493400D14DAF /* InputBarAccessoryView.framework */,
@@ -554,7 +558,7 @@
 				88916B1F1CF0DF2F00469F91 /* Headers */,
 				88916B201CF0DF2F00469F91 /* Resources */,
 				B03FF9A51F30398900754FE5 /* ShellScript */,
-				BBD0866825E58C510037F7D9 /* Embed Frameworks */,
+				BB28EA8B25E597E300BC4CBB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
